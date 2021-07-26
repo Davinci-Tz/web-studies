@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Ultra&display=swap');
+
+
+#form {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    background: rgb(192, 110, 33);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: ubuntu;
+    border-radius: 12px;
+}
+#form .form-group{
+    margin-bottom: 10px;
+}
+#form .form-group label{
+    text-align: left;
+    float: left;
+}
+#form .form-group input[type='text']{
+    text-align: right;
+    float: right;
+}
+#form .form-group input[type='number']{
+    text-align: right;
+    float: right;
+}
+#form .form-group input[type='email']{
+    text-align: right;
+    float: right;
+}
+#form .form-group input[type='file']{
+    text-align: right;
+    float: right;
+}
+#form .form-group input[type='radio']{
+    text-align: right;
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+#form .form-group input[type='radio'],span {
+    float: right;
+}
+#form .form-group input[type='password'],span {
+    float: right;
+}
+#form .form-group textarea{
+    text-align: left;
+    float: right;
+    width: 320px;
+    text-align: left;
+    
+}
+#form .form-group select{
+    text-align: left;
+    float: right;
+}
+
+#form .form-group button{
+   margin-left: 23%;
+   background: rgb(61, 18, 2);
+   color: #fff;
+   width: 340px;
+   height: 50px;
+   border: none;
+   border-radius: 12px;
+    
+}
+#form .form-group button i {
+    font-size: 40px;
+}
+#form .form-group button:hover{
+    background: rgb(167, 85, 9);
+    color: #fff;
+}
+#form .login {
+    text-align: center;
+}
+#form .login a {
+    color: #fff;
+    font-family: ubuntu;
+    
+}
+
